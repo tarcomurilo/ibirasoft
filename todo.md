@@ -1,1 +1,5 @@
-
+- [ ] Configurar o ambiente de desenvolvimento
+- [ ] Implementar funcionalidade principal
+- [ ] Escrever testes automatizados
+- [ ] Atualizar a documentação
+- [ ] Preparar o deploy
