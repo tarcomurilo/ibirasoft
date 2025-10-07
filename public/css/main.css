@@ -10,6 +10,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#root {
+.main-layout {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout-body {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .layout-body {
+    flex-direction: column;
+  }
 }

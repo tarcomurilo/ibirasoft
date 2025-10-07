@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Inventário Florestal</title>
+  <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+  <div class="login-page">
+    <div class="login-container">
+      <div class="login-header">
+        <div class="login-logo">🌲</div>
+        <h1 class="login-title">Inventário Florestal</h1>
+        <p class="login-subtitle">Sistema de Gestão e Análise</p>
+      </div>
+
+      <form class="login-form" id="loginForm">
+        <div class="input-group">
+          <span class="input-icon">👤</span>
+          <input
+            type="text"
+            id="login"
+            placeholder="Usuário"
+            required
+          />
+        </div>
+
+        <div class="input-group">
+          <span class="input-icon">🔒</span>
+          <input
+            type="password"
+            id="senha"
+            placeholder="Senha"
+            required
+          />
+        </div>
+
+        <div id="errorMessage" style="color: #c45a5a; fontSize: 14px; text-align: center; display: none;"></div>
+
+        <div class="forgot-password">
+          <button type="button" id="forgotPasswordBtn">
+            Esqueceu a senha?
+          </button>
+        </div>
+
+        <button type="submit" class="login-button">
+          Entrar
+        </button>
+
+        <div class="divider">ou</div>
+
+        <div class="create-account">
+          <button
+            type="button"
+            class="create-account-button"
+            id="createAccountBtn"
+          >
+            Criar nova conta
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="/js/login.js"></script>
+</body>
+</html>
